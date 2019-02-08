@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
+
+body {
+  background-color: #A2BCDA;
+}
+
+.App {
+  background-color: #A2BCDA;
+}
+
+.containerApp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+img {
+  display: block;
+  margin: 1rem auto;
+  max-width: 90%;
+
+}
+
+.invertThis {
+  filter: invert(100%);
+}

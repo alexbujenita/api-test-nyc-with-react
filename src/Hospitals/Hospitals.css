@@ -1,0 +1,87 @@
+.hospitalCard {
+  border: 2px solid #32557E;
+  border-radius: 6px;
+  margin-top: 20px;
+  height: auto;
+  width: 32%;
+  background-color: #5B89BE;
+  text-align: center;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+}
+
+.hospitalCard:hover {
+  border: 3px solid yellow;
+  border-radius: 2em;
+  margin-top: 8px;
+  background-color: powderblue;
+  padding: 3px;
+  -webkit-filter: invert(.8);
+  filter: invert(.8);
+
+}
+
+.hospitalCard:before {
+  vertical-align: bottom;
+}
+
+h1 {
+  color: 	#162537;
+  font-size: 20px;
+  font-family: 'Acme', sans-serif;
+  /* background-image: linear-gradient(120deg, #ffccdd 0%, #a6c1ee 100%); */
+}
+
+p {
+  font-family: 'Dancing', cursive;
+}
+
+.hospButton {
+  position: relative;
+  vertical-align: bottom;
+  -moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+  box-shadow:inset 0px 1px 0px 0px #bee2f9;
+  background-color:#be815b;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:1px solid #3866a3;
+  display:inline-block;
+  color:#FFFCBD;
+  font-family: 'Dancing', cursive;
+  font-size:15px;
+  font-weight:normal;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:1px 1px 0px #7cacde;
+}
+
+/* button {
+  position: relative;
+  vertical-align: bottom;
+  -moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background-color:#be815b;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;
+	color:#FFFCBD;
+	font-family: 'Dancing', cursive;
+	font-size:15px;
+	font-weight:normal;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+} */
+
+.visible {
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
